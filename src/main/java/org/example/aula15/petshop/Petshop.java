@@ -12,7 +12,7 @@ public class Petshop {
         System.out.println(titulo);
         System.out.println("Nome: " + pet.nome);
         System.out.println("Espécie: " + pet.especie);
-        System.out.printf("Peso: %.1f kg%n", pet.peso);
+        System.out.printf("Peso: %.1f kg\n", pet.peso);
         System.out.println("Porte: " + pet.porte);
     }
 
