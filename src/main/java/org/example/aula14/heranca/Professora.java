@@ -7,8 +7,7 @@ public class Professora extends Pessoa {
         System.out.printf("%s lançou nota %.1f para %s.\n", nome, nota, aluna);
     }
 
-    @Override
-    public void apresentar(){
-        System.out.printf("Oi, sou %s e ensino %s. Meu cargo é %d.\n", nome, disciplina);
+    public void apresentar(String cargo){
+        System.out.printf("Oi, sou %s e ensino %s. Meu cargo é %s.\n", nome, disciplina, cargo);
     }
 }

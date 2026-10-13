@@ -113,7 +113,7 @@ public class AtividadesHeranca {
 
         fabiano.baterPonto();
         fabiano.aprovarFerias("João");
-        fabiano.notificar(" ");
+        fabiano.notificar("As férias de João foram aprovadas.");
         fabiano.exportar();
 
     }

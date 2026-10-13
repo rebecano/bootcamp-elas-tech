@@ -84,7 +84,7 @@ public class AtividadesPolimorfismo {
         rebeca.apresentar();
         rebeca.estudar();
 
-        flora.apresentar("Professora");
+        flora.apresentar();
         flora.lancarNota(rebeca.nome, 10);
 
 
@@ -165,7 +165,7 @@ public class AtividadesPolimorfismo {
 
         Essa questão mostra por que o @Override existe.
          */
-
+        flora.apresentar("Professora");
 
     }
 }
