@@ -36,7 +36,8 @@ public class Petshop {
 
         while (opcao != 0) {
 
-            System.out.println("\n=== PETSHOP ===\n1 - Cadastrar pet\n2 - Listar pet\n3 - Buscar por nome\n4 - Ver espécies cadastradas\n5 - Entrar na fila (banho, tosa e consulta)\n6 - Atender o próximo\n7 - Ficha do pet\n0 - Sair\nEscolha:");
+            System.out.println("\n=== PETSHOP ===\n1 - Cadastrar pet\n2 - Listar pet\n3 - Buscar por nome\n4 - Ver espécies cadastradas\n" +
+                    "5 - Entrar na fila (banho, tosa e consulta)\n6 - Atender o próximo\n7 - Ficha do pet\n0 - Sair\nEscolha:");
 
             try {
                 opcao = sc.nextInt();
