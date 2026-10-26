@@ -1,6 +1,6 @@
 package org.example.aula21.atividade_construtores;
 
-public class Main {
+class Main {
     static void main() {
         Agendamento agendamento1 = new Agendamento("Thor", "banho", "14h",
                 true, true, false, "alérgico a shampoo", 0.10);

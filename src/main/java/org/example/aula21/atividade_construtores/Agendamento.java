@@ -1,6 +1,6 @@
 package org.example.aula21.atividade_construtores;
 
-public class Agendamento {
+class Agendamento {
     private String nomePet;
     private String servico;
     private String horario;
@@ -29,7 +29,7 @@ public class Agendamento {
         this.desconto = desconto;
     }
 
-    public void mostrar() {
+    void mostrar() {
         System.out.println("Nome: " + nomePet + "\n" +
                 "Serviço: " + servico + "\n" +
                 "Horário: " + horario + "\n" +
