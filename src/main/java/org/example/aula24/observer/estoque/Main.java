@@ -1,4 +1,4 @@
-package org.example.aula24.observer_estoque;
+package org.example.aula24.observer.estoque;
 
 public class Main {
     static void main() {

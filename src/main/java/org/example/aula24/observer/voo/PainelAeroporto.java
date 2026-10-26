@@ -1,4 +1,4 @@
-package org.example.aula24.observer_voo;
+package org.example.aula24.observer.voo;
 
 public class PainelAeroporto implements ObservadorVoo {
 

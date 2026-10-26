@@ -1,6 +1,4 @@
-package org.example.aula24.observer_voo;
-
-import org.example.aula14.polimorfismo.Painel;
+package org.example.aula24.observer.voo;
 
 public class Main {
     static void main() {
