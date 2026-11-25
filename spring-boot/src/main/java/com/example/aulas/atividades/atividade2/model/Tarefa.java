@@ -1,0 +1,26 @@
+package com.example.aulas.atividades.atividade2.model;
+
+import jakarta.persistence.*;
+
+@Entity
+public class Tarefa {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String tipo;
+    private boolean feita;
+
+    public Tarefa() { }
+
+    public Long getId() {return id;}
+    public void setId(Long id) {this.id = id;}
+
+    public String getTipo() {return tipo;}
+    public void setTipo(String tipo) {this.tipo = tipo;}
+
+    public boolean isFeita() {return feita;}
+    public void setFeita(boolean feita) {this.feita = feita;}
+
+}
